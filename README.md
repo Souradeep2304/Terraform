@@ -17,7 +17,7 @@ Figure 1.2: Detailed Architecture in Azure
 
 ## How to Deploy:
 -  Install Terraform.
-- [`Configure Azure`]https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure) so the Terraform can connect to Azure.
+- [`Configure Azure`](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure) so the Terraform can connect to Azure.
 - upload the deploy.tf file in Azure powershell.
 - Type in the commands 
     ```
