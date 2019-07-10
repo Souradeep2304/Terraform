@@ -15,10 +15,14 @@ Figure 1.1: Working of the Architecture
 Figure 1.2: Detailed Architecture in Azure
 </p>
 
+## Description of Files
+- deploy_with_secrules.tf - This file deploys the network security groups with predefined rules.
+- deploy_without_secrules.tf - This file deploys the network security groups without any predefined rules.
+
 ## How to Deploy:
 -  Install Terraform.
 - [`Configure Azure`](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/terraform-install-configure) so the Terraform can connect to Azure.
-- upload the deploy.tf file in Azure powershell.
+- Upload the required .tf file in Azure powershell.
 - Type in the commands 
     ```
     terraform init
