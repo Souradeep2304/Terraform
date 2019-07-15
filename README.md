@@ -15,6 +15,8 @@ Figure 1.1: Working of the Architecture
 Figure 1.2: Detailed Architecture in Azure
 </p>
 </br>
+In case of disaster recovery the bash script may be executed on the database network security groups of both the locations to allow communication to the second Vnet's Database subnet from the first.</br>
+
 
 ## Description of Files
 - deploy_with_secrules.tf - This file deploys the network security groups with predefined rules.
