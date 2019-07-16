@@ -1,4 +1,4 @@
-# Deploying Infrastructure as a code using Terraform
+# Deploying Infrastructure as a Code using Terraform
 
 **Terraform** is a tool for building, changing, and versioning infrastructure safely and easily. It suppoorts existing cloud service providers and custom in house solutions. Terraform makes use of configureation files in order to keep track of the components to run. Before applying the updates to the infrastructure, terraform creates a plan of the same which we can use to double check the changes before any real time changes are made using the apply command. To know more about terraform, you can go through the [`documentation of Terraform`](https://www.terraform.io/docs/index.html).
 
